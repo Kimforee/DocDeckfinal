@@ -1,0 +1,93 @@
+.nest-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.nest-card h5 {
+    margin: 0;
+}
+
+.nest-card .nest-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.nest-card small {
+    color: #777;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.action-buttons button {
+    width: 100px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.action-buttons button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.join-button {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.leave-button {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.delete-button {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.join-button input[type="submit"] {
+    background-color: #6bffae;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.leave-button input[type="submit"] {
+    background-color: #ff2c2c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.delete-button input[type="submit"] {
+    background-color: #6cd8ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.host-link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #007BFF;
+}
